@@ -1,0 +1,56 @@
+.container-fluid {
+  @media (max-width: 720px) {
+    display: none;
+  }
+  background-color: #000;
+  height: 100vh;
+  color: linear-gradient(red, yellow);;
+  .fundo-total {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0.95;
+  }
+}
+
+.brasileirinho {
+  display:inline-block;
+  background: -webkit-radial-gradient(blue 30%, yellow 40%, green 60%); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(blue 30%, yellow 40%, green 60%); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(blue 30%, yellow 40%, green 60%); /* For Firefox 3.6 to 40 */
+  background: radial-gradient(blue 30%, yellow 40%, green 60%); /* Standard syntax (must be last) */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fundo-inglesso {
+  color: #fff;
+  padding: 2rem;
+  margin-top: 10rem;
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  .fundo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+  }
+  .codigo-de-bala {
+    width: 200px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.fundo-share {
+  background-color: #000;
+  color: #fff;
+}
